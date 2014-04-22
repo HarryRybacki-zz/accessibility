@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Accessibility Site Demo -- SES200</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/addon.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Web Accessibility</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="/generic_image_examples/">Generic Images Examples</a></li>
+            <li><a href="/graph_image_examples">Graph Images Examples</a></li>
+            <!-- To be implemented
+            <li><a href="#">Table Examples</a></li>
+            <li><a href="#">Other Resources</a></li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Web Accessibility for Individuals with Visual Impairments</h1>
+
+        <hr />
+        <h2>The Problem</h2>
+          <p class="lead">Over <strong>1 million</strong> US adults over the age of 40 are legally blind.
+              <a href="http://www.preventblindness.org/vpus/2008_update/VPUS_2008_update.pdf">
+                  [1]
+                  <span class="hidden-vis">Statistic from Prevent Blindness survey</span>
+              </a>
+          </p>
+
+          <p class="lead">Roughly <strong>21 million</strong> US adults stated they either "have trouble" seeing or that they are blind.
+              <a href="http://www.afb.org/info/living-with-vision-loss/blindness-statistics/12">
+                  [2]
+                  <span class="hidden-vis">Statistic from National Health Interview Survey Preliminary Report (2011)</span>
+              </a>
+          </p>
+
+          <p class="lead">As of April 2014, there are over <strong>958,919,789</strong> websites on the internet available to the general public.
+              <a href="http://news.netcraft.com/archives/category/web-server-survey/">
+                  [3]
+                  <span class="hidden-vis">Statistic from http://news.netcraft.com article</span>
+              </a>
+          </p>
+          <div>
+              <img
+                      src="../static/img/website_number_graph.png"
+                      alt="A bar chart titled The number of websites, with the number of websites plotted against years.
+                      The years starting in 2000 have thousands of of websites. As years progress, the number of websites
+                       grow exponentially through the year two thousand and thirteen which has roughly seven-hundred and fifty thousand websites."
+                      style="max-width: 700px;">
+            </div>
+
+        <hr />
+        <h2>The Solution: Section 508</h2>
+          <h3>Amendment to the Rehabilitation Act of 1973</h3>
+            <p class="lead">In 1998 the US Congress amended the Rehabilitation Act to require Federal agencies to make their electronic and information technology accessible to people with disabilities.
+             <a href="http://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973">
+                  [5]
+                  <span class="hidden-vis">Wikipedia article on Section 508</span>
+              </a>
+            </p>
+            <p class="lead">Unfortunately, this requirement only holds said agencies to the standards outlined in Section 508. However when thought about early, simple adjustments to HTML source code can make all websites accessible.</p>
+          <h3>Best Practices For Web Developers</h3>
+            <p class="lead">This website serves as an introductory guide for developers to make their websites most accessible to persons with visual impairments with respect to Section 508.</p>
+            <p class="lead">Here you will find guidelines for working with general HTML structure, links, images, and graphs.</p>
+
+        <hr />
+
+        <h2>References</h2>
+          <ol class="lead">
+              <li><a href="http://www.preventblindness.org/vpus/2008_update/VPUS_2008_update.pdf">
+                  <span class="hidden-vis">Citation one.</span>
+                  Statistic from Prevent Blindness survey</a>
+              </li>
+              <li><a href="http://www.afb.org/info/living-with-vision-loss/blindness-statistics/12">
+                  <span class="hidden-vis">Citation two.</span>
+                  Statistic from National Health Interview Survey Preliminary Report (2011)</a>
+              </li>
+              <li><a href="http://news.netcraft.com/archives/category/web-server-survey/>">
+                  <span class="hidden-vis">Citation three.</span>
+                  Statistic from http://news.netcraft.com article</a>
+              </li>
+              <li><a href="http://www.internetlivestats.com/total-number-of-websites/">
+                  <span class="hidden-vis">Citation four.</span>
+                  Chart from http://intertnetlivestats.com</a>
+              </li>
+              <li><a href="http://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973">
+                  <span class="hidden-vis">Citation five.</span>
+                  Wikipedia article on Section 508</a>
+              </li>
+          </ol>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.js"></script>
+  </body>
+</html>
